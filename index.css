@@ -9,6 +9,9 @@ body {
 }
 
 #input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #6943FF;
     color: white;
     padding: 2rem 0;
@@ -16,6 +19,9 @@ body {
 
 #digits {
     border: 1px solid white;
+    background-color: #6943FF;
+    color: white;
+    text-align: center;
     border-radius: .25rem;
     font-size: 2rem;
     font-weight: 800;
@@ -24,12 +30,24 @@ body {
     padding: .25rem 0;
 }
 
+/* hide increment/decrement arrows */
+#digits::-webkit-outer-spin-button,
+#digits::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#digits:focus {
+    outline: none;
+}
+
 button {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     padding: .25rem 1rem;
     border-radius: .25rem;
     border: 1px solid gainsboro;
+    width: 5rem;
 }
 
 button:hover {
