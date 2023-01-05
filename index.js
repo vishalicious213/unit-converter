@@ -10,6 +10,7 @@ button.addEventListener("click", () => {
     let l2g = document.getElementById("l2g") // liters to gallons
     let g2l = document.getElementById("g2l") // gallons to liters
     let k2p = document.getElementById("k2p") // kilograms to pounds
+    let p2k = document.getElementById("p2k") // pounds to kilograms
     startingNumber.forEach(item => item.textContent = digits.value)
 
     m2f.textContent = (Number(digits.value) * 3.281).toFixed(2)
@@ -17,6 +18,7 @@ button.addEventListener("click", () => {
     l2g.textContent = (Number(digits.value) * 0.264).toFixed(2)
     g2l.textContent = (Number(digits.value) * 3.785).toFixed(2)
     k2p.textContent = (Number(digits.value) * 2.204).toFixed(2)
+    p2k.textContent = (Number(digits.value) * 0.454).toFixed(2)
 })
 
 
