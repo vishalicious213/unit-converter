@@ -6,8 +6,11 @@ digits.value = 0
 
 button.addEventListener("click", () => {
     let m2f = document.getElementById("m2f") // meters to feet
+    let l2g = document.getElementById("l2g") // liters to gallons
     startingNumber.forEach(item => item.textContent = digits.value)
+
     m2f.textContent = Number(digits.value) * 3.281
+    l2g.textContent = Number(digits.value) * 0.264
 })
 
 
