@@ -43,5 +43,10 @@ button:hover {
 
 .measurements {
     background-color: #273549;
+}
 
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #CCC1FF;
 }
