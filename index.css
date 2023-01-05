@@ -71,6 +71,10 @@ button:hover {
     margin-bottom: 1rem;
 }
 
+.output {
+    font-size: .9rem;
+}
+
 h2 {
     font-size: 1.25rem;
     font-weight: 600;
