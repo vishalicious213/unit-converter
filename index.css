@@ -9,7 +9,7 @@ body {
 }
 
 #input-section {
-    background: #6943FF;
+    background-color: #6943FF;
     color: white;
     padding: 2rem 0;
 }
@@ -37,5 +37,11 @@ button:hover {
 }
 
 #output-section {
+    background-color: #1F2937;
+    padding: 1rem;
+}
+
+.measurements {
+    background-color: #273549;
 
 }
