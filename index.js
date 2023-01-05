@@ -2,6 +2,8 @@ let digits = document.getElementById("digits") // input field
 let button = document.getElementById("button")
 let startingNumber = document.querySelectorAll(".starting-number") // left-side of equation
 
+digits.value = 0
+
 button.addEventListener("click", () => {
     startingNumber.forEach(item => item.textContent = digits.value)
 })
