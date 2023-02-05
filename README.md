@@ -4,7 +4,7 @@ This was a Scrimba project that I added on to with customizations. It converts u
 
 Original design from Scrimba:
 
-![]()
+![](https://github.com/vishalicious213/unit-converter/blob/main/scrimba-design.jpg?raw=true)
 
 My design:
 
