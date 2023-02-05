@@ -1,6 +1,16 @@
 # Unit Converter
 
-Converts from Metric to Imperial units and vice-versa
+This was a Scrimba project that I added on to with customizations. It converts user input from Metric to Imperial units and vice-versa.
+
+Original design from Scrimba:
+
+![]()
+
+My design:
+
+![](https://vish213-portfolio-v3.netlify.app/static/media/unit-converter.322d39ea.jpg)
+
+Deployed at: https://vish213-unit-converter.netlify.app/
 
 ## JavaScript concepts
 
@@ -13,5 +23,3 @@ Converts from Metric to Imperial units and vice-versa
 - NodeList.forEach()
 - Number()
     - .toFixed()
-
-Deployed at: https://vish213-unit-converter.netlify.app/
