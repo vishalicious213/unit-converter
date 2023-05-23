@@ -1,6 +1,6 @@
 # Unit Converter
 
-This was a Scrimba project that I added on to with customizations. It converts user input from Metric to Imperial units and vice-versa.
+This was a solo project from Module 3 (Making Websites Interactive) of Scrimba's [Frontend Developer Path](https://scrimba.com/learn/frontend) that I added on to with design customizations. It converts user input from Metric to Imperial units and vice-versa.
 
 Original design from Scrimba:
 
